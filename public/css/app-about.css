@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+font-family: 'Noto Sans', sans-serif;
+background: url('../img/homepage-2.png') top center no-repeat;
+background-size: cover;
+}
+nav li{
+    font-family: 'Noto Sans', sans-serif;
+}
+.square{
+    width: 400px;
+        height: 50px;
+        background-color: #f2f2f2;
+        border-radius: 20px; 
+        border: 2px solid;
+        margin-left: 20px;
+        margin-top: 50px;
+}
+    .main-menu {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .main-menu li {
+        margin-top: 10px;
+        margin-left: 28px;
+        margin-right: 10px;
+    }
+
+    .main-menu li a {
+        text-decoration: none;
+        color: #333; /* Adjust this value to change the link color */
+    }
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-top: -45px;
+}
+.title-about{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    }
+        .about-desc p{
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        }
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    background-color: rgb(65, 96, 65);
+    width: 350px;
+    margin: 10px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: white;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image: url(../img/devon.jpg);
+}
+.car-2{
+    background-image: url(../img/felix.jpg);
+}
+.car-3{
+    background-image: url(../img/gigi.jpg);
+}
+.card p{
+    padding: 10px;
+    color: white;
+}
+.card a{
+     background-color: white;
+     color: rgb(65, 101, 65);
+     padding: 15px 20px;
+     display: block;
+     text-align: center;
+     margin: 20px 50px;
+}
+.card h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.card:hover{
+    background-color: #26422a;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(55, 85, 55);
+    margin: 40px auto;
+}

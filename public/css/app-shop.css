@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+body{
+    margin: 0;
+font-family: 'Noto Sans', sans-serif;
+background: url('../img/homepage-2.png') top center no-repeat;
+background-size: cover;
+}
+nav li{
+    font-family: 'Noto Sans', sans-serif;
+}
+.square{
+    width: 400px;
+        height: 50px;
+        background-color: #f2f2f2;
+        border-radius: 20px; 
+        border: 2px solid;
+        margin-left: 20px;
+        margin-top: 50px;
+}
+    .main-menu {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .main-menu li {
+        margin-top: 10px;
+        margin-left: 28px;
+        margin-right: 10px;
+    }
+
+    .main-menu li a {
+        text-decoration: none;
+        color: #333; /* Adjust this value to change the link color */
+    }
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-top: -45px;
+}
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
